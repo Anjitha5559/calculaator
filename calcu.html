@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="description" content="Free responsive calculator">
+    <meta name="author" content="Anjitha J">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="calcu.css">
+    <script src="calcu.js"></script>
+    <title>calculator</title>
+</head>
+
+<body>
+    <div id="calcu">
+     
+        <div id="dis">
+            <input type="text" id="input1" class="inp">
+            <input type="text" id="input2" class="inp">
+
+
+        </div>
+        <div id="buttons">
+            <div class="switch1">
+              
+                <div class="button1" id="clr1" onclick="cleardisplay()">
+                    AC
+                </div>
+                <div class="button" onclick="addtodisplay(1)">
+                    1
+                </div>
+                <div class="button" onclick="addtodisplay(4)">
+                    4
+                </div>
+                <div class="button" onclick="addtodisplay(7)">
+                    7
+                </div>
+                <div class="button" onclick=" addtodisplay('(')">
+                    .
+                </div>
+            </div>
+
+            <div class="switch1">
+                <div class="button1" onclick=" pi('.')">
+                    Π
+                </div>
+                <div class="button" onclick="addtodisplay(2)">
+                    2
+                </div>
+                <div class="button" onclick="addtodisplay(5)">
+                    5
+                </div>
+                <div class="button" onclick="addtodisplay(8)">
+                    8
+                </div>
+                <div class="button" onclick="addtodisplay(0)">
+                    0
+                </div>
+            </div>
+
+            <div class="switch1">
+                <div class="button1" onclick="e()">
+                    e
+                </div>
+                <div class="button" onclick="addtodisplay(3)">
+                    3
+                </div>
+                <div class="button" onclick="addtodisplay(6)">
+                    6
+                </div>
+                <div class="button" onclick="addtodisplay(9)">
+                    9
+                </div>
+                <div class="button1" onclick="backspace()">
+                    ←
+                </div>
+            </div>
+            <div class="switch1">
+                <div class="button1" onclick=" addoperator('/')">
+                    /
+                </div>
+                <div class="button1" onclick=" addoperator('*')">
+                    ×
+                </div>
+                <div class="button1" onclick=" addoperator('-')">
+                    -
+                </div>
+                <div class="button1" onclick=" addoperator('+')">
+                    +
+                </div>
+                <div class="button1" onclick="equal()">
+                    =
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <label for="input1" class="lbl">Input1</label>
+    <label for="input2" class="lbl">Input2</label>
+
+</body>
+
+</html>
