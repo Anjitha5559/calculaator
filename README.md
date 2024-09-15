@@ -1,8 +1,10 @@
+Here's the updated README with the live link:
+
+---
+
 # Calculaator
 
 **Calculaator** is a simple, user-friendly calculator built using HTML, CSS, and JavaScript. It provides essential arithmetic functionalities, allowing users to perform calculations efficiently.
-
-## Check the Calculator Live at [https://anjitha5559.github.io/calculaator]Calculator
 
 ## Features
 
@@ -10,6 +12,10 @@
 - Clear (C) button to reset the calculation
 - Real-time display of input and result
 - Responsive design for mobile and desktop usage
+
+## Check the Calculator Live
+
+Try the calculator live at: [Calculator](https://anjitha5559.github.io/calculaator)
 
 ## Technologies Used
 
@@ -37,5 +43,4 @@ To use this project locally, follow these steps:
 
 1. Enter numbers and select the arithmetic operation (+, -, *, /) using the buttons.
 2. Press `=` to compute the result.
-3. Use `C` to clear the input and reset the calculator. 
-
+3. Use `C` to clear the input and reset the calculator.
